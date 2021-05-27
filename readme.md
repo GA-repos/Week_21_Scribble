@@ -1,8 +1,10 @@
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
+## SEIR 322 May 27, 2021
+
 # Scribble
 
-![](https://dl.dropboxusercontent.com/s/8frf8rblw6pnpds/hipsterlogogenerator_1438007087793.png?dl=0)
+![logo](https://dl.dropboxusercontent.com/s/8frf8rblw6pnpds/hipsterlogogenerator_1438007087793.png?dl=0)
 
 Scribble is a Django application where users can read, write and interact with
 the best content all around the world.
@@ -19,7 +21,7 @@ the best content all around the world.
 1. Change into the new directory and check out a dev branch.
 1. Fulfill the listed requirements.
 
-Build your Django application in the root of this repository. This exercise will require you to refer back to our previous lecture notes in order to set up a Django app from scratch. To see the steps for setting up a Django app with a Postgres database, refer back to our Tunr setup [instructions](https://git.generalassemb.ly/SEIR-1130/django-installation?organization=SEIR-1130&organization=SEIR-1130). 
+Build your Django application in the root of this repository. This exercise will require you to refer back to our previous lecture notes in order to set up a Django app from scratch. To see the steps for setting up a Django app with a Postgres database, refer back to our Tunr setup [instructions](https://git.generalassemb.ly/SEIR-32221/django-installation). 
 
 When asked if you want to overwrite the readme, enter "n" (for no).
 
@@ -30,7 +32,7 @@ When asked if you want to overwrite the readme, enter "n" (for no).
 ### Models + Migrations
 
 Create
-[models](https://git.generalassemb.ly/SEIR-1130/django-models?organization=SEIR-1130&organization=SEIR-1130)
+[models](https://git.generalassemb.ly/SEIR-32221/django-models#models-10-min--040)
 for Post and Comment
 
 A `Post` should have the following fields:
@@ -46,7 +48,7 @@ A `Comment` should have the following fields:
 * `post` (`ForeignKey` for `Post`)
 
 Create
-[migrations](https://git.generalassemb.ly/SEIR-1130/django-models?organization=SEIR-1130&organization=SEIR-1130)
+[migrations](https://git.generalassemb.ly/SEIR-32221/django-models#migrations-10-min--050)
 for Post and Comment
 
 ### Templates
