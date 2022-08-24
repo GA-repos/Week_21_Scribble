@@ -21,18 +21,18 @@ the best content all around the world.
 1. Change into the new directory and check out a dev branch.
 1. Fulfill the listed requirements.
 
-Build your Django application in the root of this repository. This exercise will require you to refer back to our previous lecture notes in order to set up a Django app from scratch. To see the steps for setting up a Django app with a Postgres database, refer back to our Tunr setup [instructions](https://git.generalassemb.ly/SEIR-32221/django-installation). 
+Build your Django application in the root of this repository. This exercise will require you to refer back to our previous lecture notes in order to set up a Django app from scratch. To see the steps for setting up a Django app with a Postgres database, refer back to our Django Intro setup [instructions](https://git.generalassemb.ly/Staging-322/Django-Python-Resources/blob/main/w16/d3/django-urls-views-templates/django-urls-views-templates.md). 
 
 When asked if you want to overwrite the readme, enter "n" (for no).
 
-**This assignment is due Friday at 9am ET via Pull Request on the repository.**
+**This assignment is due next Wednesday at the start of class via pull request.**
 
 ## Requirements
 
 ### Models + Migrations
 
 Create
-[models](https://git.generalassemb.ly/SEIR-32221/django-models#models-10-min--040)
+[models](https://git.generalassemb.ly/Flex-322/Django-Models)
 for Post and Comment
 
 A `Post` should have the following fields:
@@ -48,7 +48,7 @@ A `Comment` should have the following fields:
 * `post` (`ForeignKey` for `Post`)
 
 Create
-[migrations](https://git.generalassemb.ly/SEIR-32221/django-models#migrations-10-min--050)
+[migrations](https://git.generalassemb.ly/Flex-322/Django-Models#making-and-running-migrations)
 for Post and Comment
 
 ### Templates
